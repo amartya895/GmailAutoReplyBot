@@ -6,7 +6,6 @@ GmailAutoReplyBot is a Node.js application that automates the process of sending
 
 - Automatically replies to unread emails from a specific sender with a vacation auto-reply message.
 - Labels and archives replied emails.
-- Easy deployment on platforms like Heroku or Vercel.
 
 ## Prerequisites
 
