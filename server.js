@@ -87,7 +87,7 @@ app.get("/", async (req, res) => {
       }
     }, Math.floor(Math.random() * (120 - 45 + 1) + 45) * 1000);
 
-    res.json({ "this is Auth": auth });
+    res.json({ "Auth Part": auth });
   } catch (error) {
     console.error("Error:", error);
     res.status(500).json({ error: "Internal Server Error" });
